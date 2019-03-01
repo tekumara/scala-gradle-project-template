@@ -1,4 +1,4 @@
 // by default this is the name of the current directory
-// explicity set this if your CI runs with an auto-generated directory name
+// explicitly set this if your CI runs with an auto-generated directory name
 rootProject.name = 'myproject'
 

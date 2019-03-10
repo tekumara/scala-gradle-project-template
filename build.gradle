@@ -14,7 +14,8 @@ repositories {
 
 dependencies {
     compile "org.scala-lang:scala-library:${scalaVersion}"
-    compile "org.scalatest:scalatest_${scalaBuildVersion}:3.0.5"
+    
+    testCompile "org.scalatest:scalatest_${scalaBuildVersion}:3.0.5"
 
     // used by com.github.maiflai.scalatest
     testRuntime 'org.pegdown:pegdown:1.6.0'

@@ -23,3 +23,17 @@ dependencies {
     // used by com.github.maiflai.scalatest
     testRuntime 'org.pegdown:pegdown:1.6.0'
 }
+
+// see https://tpolecat.github.io/2017/04/25/scalac-flags.html
+tasks.withType(ScalaCompile) {
+    scalaCompileOptions.additionalParameters = [
+            "-Xfatal-warnings",
+            "-Ywarn-unused-import",
+            "-Ypartial-unification",
+            "-explaintypes",
+            "-deprecation",
+            "-unchecked",
+            "-feature",
+            "-Xlint",
+    ]
+}

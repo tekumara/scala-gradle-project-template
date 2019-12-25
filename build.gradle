@@ -16,12 +16,12 @@ dependencies {
     def scalaBuildVersion = '2.11'
     def scalaVersion = '2.11.12'
 
-    compile "org.scala-lang:scala-library:${scalaVersion}"
+    implementation "org.scala-lang:scala-library:${scalaVersion}"
     
-    testCompile "org.scalatest:scalatest_${scalaBuildVersion}:3.0.5"
+    testImplementation "org.scalatest:scalatest_${scalaBuildVersion}:3.0.5"
 
     // used by com.github.maiflai.scalatest
-    testRuntime 'org.pegdown:pegdown:1.6.0'
+    testRuntimeOnly 'org.pegdown:pegdown:1.6.0'
 }
 
 // see https://tpolecat.github.io/2017/04/25/scalac-flags.html

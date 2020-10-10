@@ -21,7 +21,7 @@ dependencies {
     testImplementation "org.scalatest:scalatest_${scalaBuildVersion}:3.0.9"
 
     // used by com.github.maiflai.scalatest
-    testRuntimeOnly 'org.pegdown:pegdown:1.6.0'
+    testRuntimeOnly "org.pegdown:pegdown:1.6.0"
 }
 
 // see https://tpolecat.github.io/2017/04/25/scalac-flags.html

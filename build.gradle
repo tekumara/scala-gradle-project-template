@@ -13,12 +13,12 @@ repositories {
 }
 
 dependencies {
-    def scalaBuildVersion = '2.11'
-    def scalaVersion = '2.11.12'
+    def scalaBuildVersion = '2.12'
+    def scalaVersion = '2.12.12'
 
     implementation "org.scala-lang:scala-library:${scalaVersion}"
     
-    testImplementation "org.scalatest:scalatest_${scalaBuildVersion}:3.0.5"
+    testImplementation "org.scalatest:scalatest_${scalaBuildVersion}:3.0.9"
 
     // used by com.github.maiflai.scalatest
     testRuntimeOnly 'org.pegdown:pegdown:1.6.0'

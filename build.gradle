@@ -18,7 +18,7 @@ dependencies {
 
     implementation "org.scala-lang:scala-library:${scalaVersion}"
     
-    testImplementation "org.scalatest:scalatest_${scalaBuildVersion}:3.2.6"
+    testImplementation "org.scalatest:scalatest_${scalaBuildVersion}:3.2.7"
 
     // used by com.github.maiflai.scalatest
     testRuntimeOnly "org.pegdown:pegdown:1.6.0"

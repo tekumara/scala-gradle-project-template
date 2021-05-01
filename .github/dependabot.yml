@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: "monthly"
+  open-pull-requests-limit: 5
+  ignore:
+  - dependency-name: org.scala-lang:scala-library
+    versions:
+    - ">= 2.13.a, < 2.14"
+  - dependency-name: org.scalatest:scalatest_2.12
+    versions:
+    - ">= 3.3.a, < 3.4"

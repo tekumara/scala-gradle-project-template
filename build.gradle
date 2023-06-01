@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     def scalaBuildVersion = '2.12'
-    def scalaVersion = '2.12.17'
+    def scalaVersion = '2.12.18'
 
     implementation "org.scala-lang:scala-library:${scalaVersion}"
     
